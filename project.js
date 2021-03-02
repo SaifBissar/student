@@ -64,7 +64,7 @@ form.addEventListener('submit', function (e) {
     let student = {
         name: this.elements.name.value,
         age: this.elements.age.value,
-        clas: this.elements.class.value,
+        class: this.elements.class.value,
         degree: this.elements.degree.value
     }
     students.push(student)
