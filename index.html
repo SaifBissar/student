@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Student Portal</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container">
+    <div class="my-5">
+        <button class="btn btn-secondary" id="showBtn">Show Form</button>
+    </div>
+    <form class="p-2 border border-3 border-dark d-none" id="form">
+        <input placeholder="Student Name" name="name" class="form-control my-3">
+        <input placeholder="Student Class" name="class" class="form-control my-3">
+        <input placeholder="Student Age" name="age" class="form-control my-3">
+        <input placeholder="Student Degree" name="degree" class="form-control my-3">
+        <button class="btn btn-success" id="addBtn">Add Student</button>
+    </form>
+    <table class="table table-bordered table-striped table-dark text-center">
+        <thead class="p">
+            <th>ID</th>
+            <th>Student Name</th>
+            <th>Student Class</th>
+            <th>Student Age</th>
+            <th>Student Degree</th>
+            <th>Student Grade</th>
+            <th>Actions</th>
+        </thead>
+        <tbody id="table"></tbody>
+    </table>
+    <script src="project.js"></script>
+</body>
+
+</html>
